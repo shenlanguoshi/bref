@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.workflow.dao.FormHeadDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.workflow.entity.FormHeadEntity">
+		<id property="id" column="id" />
+		<result property="name" column="name" />
+		<result property="json" column="json" />
+		<result property="createAt" column="create_at" />
+		<result property="updateAt" column="update_at" />
+	</resultMap>
+
+	<sql id="defaultColumn">
+		form_head.id,
+		form_head.name,
+		form_head.json,
+		form_head.create_at,
+		form_head.update_at
+	</sql>
+
+	<insert id="insert">
+		INSERT INTO form_head <include refid="com.brt.bref.common.dao.CommonDao.mapInsert"/>
+	</insert>
+
+	<update id="deleteById">
+		UPDATE form_head SET del_flag = 1 WHERE id = #{id}
+	</update>
+
+	<update id="update">
+		UPDATE form_head SET <include refid="com.brt.bref.common.dao.CommonDao.mapUpdate"/> WHERE id = #{id}
+	</update>
+	
+	<select id="getById" resultMap="resultMap">
+		SELECT <include refid="defaultColumn"/>
+		FROM form_head
+		WHERE form_head.id = #{id}
+	</select>
+
+	<select id="list" resultMap="resultMap">
+		SELECT <include refid="defaultColumn"/>
+		FROM form_head
+		<where>
+			<include refid="com.brt.bref.common.dao.CommonDao.mapEqual"/>
+        	<include refid="com.brt.bref.common.dao.CommonDao.mapLike"/>
+		</where>
+	</select>
+
+</mapper>

@@ -7,12 +7,9 @@ tmp/
 *.swp
 *~.nib
 local.properties
-.settings
+.settings/
 .loadpath
 .recommenders
-.classpath
-.project
-.class
 
 # External tool builders
 .externalToolBuilders/
@@ -57,3 +54,10 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
+.DS_Store
+.project
+.classpath
+.mvn/
+.metadata/
+**/target

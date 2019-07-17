@@ -1,0 +1,25 @@
+server:
+  servlet:
+    context-path: 
+  port: 9999
+  
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: auth
+        uri: lb://auth
+        predicates:
+        - Path=/auth/**
+      - id: user-service
+        uri: lb://user-service
+        predicates:
+        - Path=/user-service/**
+      - id: workflow
+        uri: lb://workflow
+        predicates:
+        - Path=/workflow/**
+      - id: log-service
+        uri: lb://log-service
+        predicates:
+        - Path=/log-service/**

@@ -1,0 +1,27 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config/dev
+  profiles:
+    active: native
+  security:
+    user:
+      password: password
+  
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVICE_URL:http://registry.bref.brt.com:8761}/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+      

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.user.svc.dao.PermissionModuleDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.user.feign.entity.PermissionModuleEntity">
+		<result property="permissionId" column="permission_id" />
+		<result property="moduleId" column="module_id" />
+	</resultMap>
+
+	<sql id="defaultColumn">
+		sys_permission_module.permission_id,
+		sys_permission_module.module_id
+	</sql>
+
+	<insert id="insert">
+		INSERT INTO sys_permission_module <include refid="com.brt.bref.common.dao.CommonDao.mapInsert"/>
+	</insert>
+
+	<delete id="delete">
+		DELETE FROM sys_permission_module WHERE permission_id = #{permissionId} AND module_id = #{moduleId}
+	</delete>
+
+	<select id="listPermissionModule" resultMap="com.brt.bref.user.svc.dao.ModuleDao.resultMap">
+		SELECT <include refid="com.brt.bref.user.svc.dao.ModuleDao.defaultColumn"/>
+		FROM sys_permission_module
+		INNER JOIN sys_module
+		ON sys_module.del_flag = 0
+		AND sys_permission_module.module_id = sys_module.id
+		WHERE sys_permission_module.permission_id = #{permissionId}
+	</select>
+
+	<select id="listModulePermission" resultMap="com.brt.bref.user.svc.dao.PermissionDao.resultMap">
+		SELECT <include refid="com.brt.bref.user.svc.dao.PermissionDao.defaultColumn"/>
+		FROM sys_permission_module
+		INNER JOIN sys_permission
+		ON sys_permission.del_flag = 0
+		AND sys_permission_module.permission_id = sys_permission.id
+		WHERE sys_permission_module.module_id = #{moduleId}
+	</select>
+
+</mapper>

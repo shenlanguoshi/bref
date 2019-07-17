@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.mdm.svc.dao.CompanyDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.mdm.feign.entity.CompanyEntity">
+		<id property="id" column="id" />
+		<result property="name" column="name" />
+		<result property="createAt" column="create_at" />
+		<result property="updateAt" column="update_at" />
+	</resultMap>
+	
+	<select id="getCompanyByName" resultMap="resultMap"
+		parameterType="java.lang.String">
+		SELECT *
+		  FROM mdm_company
+		 WHERE name = #{name}
+		   AND del_flag = 0
+		 LIMIT 1
+	</select>
+</mapper>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.user.svc.dao.DataScopeItemDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.user.feign.entity.DataScopeItemEntity">
+		<id property="id" column="id" />
+		<result property="dataScopeId" column="data_scope_id" />
+		<result property="columnName" column="column_name" />
+		<result property="operator" column="operator" />
+		<result property="dataScope" column="data_scope" />
+		<result property="createAt" column="create_at" />
+		<result property="updateAt" column="update_at" />
+	</resultMap>
+
+	<sql id="defaultColumn">
+		sys_data_scope_item.id,
+		sys_data_scope_item.data_scope_id,
+		sys_data_scope_item.column_name,
+		sys_data_scope_item.operator,
+		sys_data_scope_item.data_scope,
+		sys_data_scope_item.create_at,
+		sys_data_scope_item.update_at
+	</sql>
+
+	<insert id="insert">
+		INSERT INTO sys_data_scope_item <include refid="com.brt.bref.common.dao.CommonDao.mapInsert"/>
+	</insert>
+
+	<update id="deleteById">
+		UPDATE sys_data_scope_item SET del_flag = 1 WHERE id = #{id}
+	</update>
+
+	<update id="update">
+		UPDATE sys_data_scope_item SET <include refid="com.brt.bref.common.dao.CommonDao.mapUpdate"/> WHERE id = #{id}
+	</update>
+
+	<select id="list" resultMap="resultMap">
+		SELECT <include refid="defaultColumn"/>
+		FROM sys_data_scope_item
+		<where>
+			<include refid="com.brt.bref.common.dao.CommonDao.mapEqual"/>
+        	<include refid="com.brt.bref.common.dao.CommonDao.mapLike"/>
+		</where>
+	</select>
+
+</mapper>

@@ -1,0 +1,17 @@
+{
+    "sys_corporation:list": {
+        "sys_corporation.ids": {
+            "like": ""
+        },
+        "sys_corporation.id": {
+            "=": "",
+            "in": ""
+        }
+    },
+    "sys_user:list": {
+        "sys_user.id": {
+            "=": "",
+            "in": ""
+        }
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.user.svc.dao.UserCorporationWorkDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.user.feign.entity.UserCorporationWorkEntity">
+		<result property="userId" column="user_id" />
+		<result property="corporationWorkId" column="corporation_work_id" />
+	</resultMap>
+
+	<sql id="defaultColumn">
+		sys_user_corporation_work.user_id,
+		sys_user_corporation_work.corporation_work_id
+	</sql>
+
+	<insert id="insert">
+		INSERT INTO sys_user_corporation_work <include refid="com.brt.bref.common.dao.CommonDao.mapInsert"/>
+	</insert>
+
+	<delete id="delete">
+		DELETE FROM sys_user_corporation_work WHERE user_id = #{userId} AND corporation_work_id = #{corporationWorkId}
+	</delete>
+
+	<select id="listUserCorporationWork" resultMap="com.brt.bref.user.svc.dao.CorporationWorkDao.resultMap">
+		SELECT <include refid="com.brt.bref.user.svc.dao.CorporationWorkDao.defaultColumn"/>
+		FROM sys_user_corporation_work
+		INNER JOIN sys_corporation_work
+		ON sys_corporation_work.del_flag = 0
+		AND sys_corporation_work.id = sys_user_corporation_work.corporation_work_id
+		INNER JOIN sys_corporation 
+		ON sys_corporation_work.corporation_id = sys_corporation.id
+		WHERE sys_user_corporation_work.user_id = #{userId};
+	</select>
+	
+	<select id="listCorporationWorkUser" resultMap="com.brt.bref.user.svc.dao.UserDao.resultMap">
+		SELECT <include refid="com.brt.bref.user.svc.dao.UserDao.defaultColumn"/>
+		FROM sys_user_corporation_work
+		INNER JOIN sys_user
+		ON sys_user.del_flag = 0
+		AND sys_user_corporation_work.user_id = sys_user.id
+		WHERE sys_user_corporation_work.corporation_work_id = #{corporationWorkId};
+	</select>
+
+</mapper>

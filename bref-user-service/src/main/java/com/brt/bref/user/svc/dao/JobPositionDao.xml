@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.user.svc.dao.JobPositionDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.user.feign.entity.JobPositionEntity">
+		<id property="id" column="id" />
+		<result property="name" column="name" />
+		<result property="createAt" column="create_at" />
+		<result property="updateAt" column="update_at" />
+	</resultMap>
+
+	<sql id="defaultColumn">
+		sys_job_position.id,
+		sys_job_position.name,
+		sys_job_position.create_at,
+		sys_job_position.update_at
+	</sql>
+
+	<insert id="insert">
+		INSERT INTO sys_job_position <include refid="com.brt.bref.common.dao.CommonDao.mapInsert"/>
+	</insert>
+
+	<update id="deleteById">
+		UPDATE sys_job_position SET del_flag = 1 WHERE id = #{id}
+	</update>
+
+	<update id="update">
+		UPDATE sys_job_position SET <include refid="com.brt.bref.common.dao.CommonDao.mapUpdate"/> WHERE id = #{id}
+	</update>
+
+	<select id="list" resultMap="resultMap">
+		SELECT <include refid="defaultColumn"/>
+		FROM sys_job_position
+		<where>
+			<include refid="com.brt.bref.common.dao.CommonDao.mapEqual"/>
+        	<include refid="com.brt.bref.common.dao.CommonDao.mapLike"/>
+		</where>
+	</select>
+
+</mapper>

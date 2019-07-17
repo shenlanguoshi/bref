@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.user.svc.dao.UserPermissionDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.user.feign.entity.UserPermissionEntity">
+		<result property="userId" column="user_id" />
+		<result property="permissionId" column="permission_id" />
+	</resultMap>
+
+	<sql id="defaultColumn">
+		sys_user_permission.user_id,
+		sys_user_permission.permission_id
+	</sql>
+
+	<insert id="insert">
+		INSERT INTO sys_user_permission <include refid="com.brt.bref.common.dao.CommonDao.mapInsert"/>
+	</insert>
+
+	<delete id="delete">
+		DELETE FROM sys_user_permission WHERE user_id = #{userId} AND permission_id = #{permissionId}
+	</delete>
+
+	<select id="listUserPermission" resultMap="com.brt.bref.user.svc.dao.PermissionDao.resultMap">
+		SELECT <include refid="com.brt.bref.user.svc.dao.PermissionDao.defaultColumn"/>
+		FROM sys_user_permission
+		INNER JOIN sys_permission
+		ON sys_permission.del_flag = 0
+		AND sys_permission.id = sys_user_permission.permission_id
+		WHERE sys_user_permission.user_id = #{userId};
+	</select>
+
+	<select id="listPermissionUser" resultMap="com.brt.bref.user.svc.dao.UserDao.resultMap">
+		SELECT <include refid="com.brt.bref.user.svc.dao.UserDao.defaultColumn"/>
+		FROM sys_user_permission
+		INNER JOIN sys_user
+		ON sys_user.del_flag = 0
+		AND sys_user.id = sys_user_permission.user_id
+		WHERE sys_user_permission.permission_id = #{permissionId};
+	</select>
+
+</mapper>

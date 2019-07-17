@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.user.svc.dao.CorporationDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.user.feign.entity.CorporationEntity">
+		<id property="id" column="id" />
+		<result property="supervisorId" column="supervisor_id" />
+		<result property="supervisorName" column="supervisor_name" />
+		<result property="name" column="name" />
+		<result property="parentId" column="parent_id" />
+		<result property="createAt" column="create_at" />
+		<result property="updateAt" column="update_at" />
+	</resultMap>
+
+	<sql id="defaultColumn">
+		sys_corporation.id,
+		sys_corporation.supervisor_id,
+		sys_user.username AS supervisor_name,
+		sys_corporation.name,
+		sys_corporation.parent_id,
+		sys_corporation.create_at,
+		sys_corporation.update_at
+	</sql>
+
+	<insert id="insert">
+		INSERT INTO sys_corporation <include refid="com.brt.bref.common.dao.CommonDao.mapInsert"/>
+	</insert>
+
+	<update id="deleteById">
+		UPDATE sys_corporation SET del_flag = 1 WHERE id = #{id}
+	</update>
+
+	<update id="update">
+		UPDATE sys_corporation SET <include refid="com.brt.bref.common.dao.CommonDao.mapUpdate"/> WHERE id = #{id}
+	</update>
+	
+	<select id="getById" resultMap="resultMap">
+		SELECT <include refid="defaultColumn"/>
+		FROM sys_corporation
+		LEFT JOIN sys_user 
+		ON sys_corporation.supervisor_id = sys_user.id
+		WHERE sys_corporation.id = #{id}
+	</select>
+
+	<select id="list" resultMap="resultMap">
+		SELECT 
+		<include refid="com.brt.bref.common.dao.CommonDao.dataSchema"/>
+		FROM sys_corporation
+		LEFT JOIN sys_user
+		ON sys_corporation.supervisor_id = sys_user.id
+		<where>
+			<include refid="com.brt.bref.common.dao.CommonDao.mapEqual"/>
+        	<include refid="com.brt.bref.common.dao.CommonDao.mapLike"/>
+        	<include refid="com.brt.bref.common.dao.CommonDao.dataScope"/>
+        	AND sys_corporation.del_flag = 0
+		</where>
+	</select>
+	
+</mapper>

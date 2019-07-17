@@ -1,0 +1,25 @@
+logging:
+  level:
+    root: INFO
+
+spring: 
+  application: 
+    name: registry
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: registry.bref.brt.com
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    eviction-interval-timer-in-ms: 600000
+    enable-self-preservation: false
+    renewal-percent-threshold: 0.9

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.brt.bref.user.svc.dao.ModuleDao">
+	<resultMap id="resultMap"
+		type="com.brt.bref.user.feign.entity.ModuleEntity">
+		<id property="id" column="id" />
+		<result property="title" column="title" />
+		<result property="parentId" column="parent_id" />
+		<result property="uri" column="uri" />
+		<result property="icon" column="icon" />
+		<result property="sort" column="sort" />
+		<result property="menu" column="is_menu" />
+		<result property="controls" column="controls" />
+		<result property="createAt" column="create_at" />
+		<result property="updateAt" column="update_at" />
+	</resultMap>
+
+	<sql id="defaultColumn">
+		sys_module.id,
+		sys_module.title,
+		sys_module.parent_id,
+		sys_module.uri,
+		sys_module.icon,
+		sys_module.sort,
+		sys_module.is_menu,
+		sys_module.controls,
+		sys_module.create_at,
+		sys_module.update_at
+	</sql>
+
+	<insert id="insert">
+		INSERT INTO sys_module <include refid="com.brt.bref.common.dao.CommonDao.mapInsert"/>
+	</insert>
+	
+	<update id="deleteById">
+		UPDATE sys_module SET del_flag = 1 WHERE id = #{id}
+	</update>
+
+	<update id="update">
+		UPDATE sys_module SET <include refid="com.brt.bref.common.dao.CommonDao.mapUpdate"/> WHERE id = #{id}
+	</update>
+
+	<select id="list" resultMap="resultMap">
+		SELECT <include refid="defaultColumn"/>
+		FROM sys_module
+		<where>
+			<include refid="com.brt.bref.common.dao.CommonDao.mapEqual"/>
+        	<include refid="com.brt.bref.common.dao.CommonDao.mapLike"/>
+		</where>
+	</select>
+
+</mapper>
