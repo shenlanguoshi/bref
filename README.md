@@ -1,13 +1,21 @@
 # bref
 
 #### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+基于 Spring Cloud 、Spring Security OAuth2 的权限管理系统
 
 #### 软件架构
-软件架构说明
-
+bref-auth ---- 认证中心
+bref-common ---- 公共包
+bref-config ---- 配置中心
+bref-gateway ---- 网关
+bref-log-service ---- 日志中心
+bref-mdm-feign ---- 主数据中心feign接口
+bref-mdm-service ---- 主数据中心
+bref-parent ---- 父包
+bref-registry ---- 注册中心
+bref-user-feign ---- 用户中心feign接口
+bref-user-service ---- 用户中心
+bref-workflow ---- 工作流
 
 #### 安装教程
 
