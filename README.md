@@ -4,18 +4,20 @@
 基于 Spring Cloud 、Spring Security OAuth2 的权限管理系统
 
 #### 软件架构
-bref-auth ---- 认证中心
-bref-common ---- 公共包
-bref-config ---- 配置中心
-bref-gateway ---- 网关
-bref-log-service ---- 日志中心
-bref-mdm-feign ---- 主数据中心feign接口
-bref-mdm-service ---- 主数据中心
-bref-parent ---- 父包
-bref-registry ---- 注册中心
-bref-user-feign ---- 用户中心feign接口
-bref-user-service ---- 用户中心
-bref-workflow ---- 工作流
+
+- bref-auth ---- 认证中心
+- bref-common ---- 公共包
+- bref-config ---- 配置中心
+- bref-gateway ---- 网关
+- bref-log-service ---- 日志中心
+- bref-mdm-feign ---- 主数据中心feign接口
+- bref-mdm-service ---- 主数据中心
+- bref-parent ---- 父包
+- bref-registry ---- 注册中心
+- bref-user-feign ---- 用户中心feign接口
+- bref-user-service ---- 用户中心
+- bref-workflow ---- 工作流
+
 
 #### 安装教程
 
