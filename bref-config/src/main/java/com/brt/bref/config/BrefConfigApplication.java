@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月16日
  * 配置中心
  */
@@ -14,7 +14,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class BrefConfigApplication {
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月16日
 	 * @param args 
 	 * 启动方法

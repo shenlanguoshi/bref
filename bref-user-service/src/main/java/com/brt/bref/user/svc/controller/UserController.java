@@ -33,7 +33,7 @@ import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月27日 用户Controller
  * @description 
  */
@@ -110,7 +110,7 @@ public class UserController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月10日
 	 * @param username
 	 * @param password
@@ -142,7 +142,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param userInfo 用户信息
 	 * @return 注册成功/失败
@@ -185,7 +185,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param id
 	 * @return 删除用户成功/失败
@@ -206,7 +206,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param userInfo
 	 * @param id 用户id
@@ -243,7 +243,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param id 用户id
 	 * @return 用户基本信息
@@ -265,7 +265,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数
@@ -322,7 +322,7 @@ public class UserController {
 
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param userCorporationInfo 用户组织机构信息
 	 * @return 是否成功
@@ -362,7 +362,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param userId 用户id
 	 * @param corporationId 组织机构id
@@ -386,7 +386,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param userId 用户id
 	 * @return 用户组织机构列表
@@ -408,7 +408,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param userCorporationWorkInfo 用户岗位信息
 	 * @return 是否成功
@@ -448,7 +448,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param userId 用户id
 	 * @param corporationWorkId 岗位id
@@ -472,7 +472,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param userId 用户id
 	 * @return 用户岗位列表
@@ -494,7 +494,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param userJobPositionInfo 用户职务信息
 	 * @return 是否成功
@@ -534,7 +534,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param userId 用户id
 	 * @param jobPositionId 职务id
@@ -558,7 +558,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param userId
 	 * @return 用户职务列表
@@ -580,7 +580,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param userPermissionInfo 用户权限信息
 	 * @return 是否成功
@@ -620,7 +620,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param userId 用户id
 	 * @param permissionId 权限id
@@ -644,7 +644,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param id 用户id
 	 * @return 用户权限集合

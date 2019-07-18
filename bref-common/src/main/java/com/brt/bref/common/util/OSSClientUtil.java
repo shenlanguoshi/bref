@@ -13,7 +13,7 @@ import com.aliyun.oss.model.DeleteObjectsResult;
 import com.aliyun.oss.model.ObjectMetadata;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2019年1月9日
  * @description 阿里OSS工具类
  */
@@ -127,7 +127,7 @@ public class OSSClientUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadPath 上传路径
 	 * @param uploadFile 需要上传的文件
@@ -184,7 +184,7 @@ public class OSSClientUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadPath 上传路径
 	 * @param uploadFiles 需要上传的文件集合
@@ -236,7 +236,7 @@ public class OSSClientUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadPath 上传路径
 	 * @param uploadFile 需要上传的图片
@@ -281,7 +281,7 @@ public class OSSClientUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadPath 上传路径
 	 * @param uploadFiles 需要上传的图片集合
@@ -333,7 +333,7 @@ public class OSSClientUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param path 需要删除的文件路径
 	 * @return 是否成功
@@ -356,7 +356,7 @@ public class OSSClientUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param paths 文件路径集合
 	 * @return 是否成功
@@ -384,7 +384,7 @@ public class OSSClientUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadFile 待上传的文件
 	 * @return String 后缀
@@ -395,7 +395,7 @@ public class OSSClientUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadImage
 	 * @return 是否允许
@@ -409,7 +409,7 @@ public class OSSClientUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadFile
 	 * @return 是否允许
@@ -423,7 +423,7 @@ public class OSSClientUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadImage
 	 * @return 是否合理
@@ -439,7 +439,7 @@ public class OSSClientUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param uploadFile
 	 * @return 是否合理

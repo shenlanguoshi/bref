@@ -26,7 +26,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月30日
  * @description 数据权限-列Controller
  */
@@ -36,7 +36,7 @@ public class DataSchemaController {
 	private DataSchemaService dataSchemaService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataSchemaInfo
 	 * @return 是否成功
@@ -103,7 +103,7 @@ public class DataSchemaController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param id 数据权限-列id
 	 * @return 是否成功
@@ -124,7 +124,7 @@ public class DataSchemaController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataSchemaInfo 数据权限-列信息
 	 * @param id 数据权限-列id
@@ -196,7 +196,7 @@ public class DataSchemaController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数
@@ -286,7 +286,7 @@ public class DataSchemaController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataSchemaPermissionInfo 数据权限列-权限信息
 	 * @return 是否成功
@@ -326,7 +326,7 @@ public class DataSchemaController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataSchemaId 数据权限-列id
 	 * @param permissionId 权限id
@@ -350,7 +350,7 @@ public class DataSchemaController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataSchemaId 数据权限-列 id
 	 * @return 权限集合

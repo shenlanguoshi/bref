@@ -27,7 +27,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月27日
  * @description 岗位Controller
  */
@@ -37,7 +37,7 @@ public class CorporationWorkController {
 	private CorporationWorkService corporationWorkService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationWorkInfo 岗位信息
 	 * @return 是否成功
@@ -82,7 +82,7 @@ public class CorporationWorkController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param id 岗位id
 	 * @return 是否成功
@@ -103,7 +103,7 @@ public class CorporationWorkController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationWorkInfo 岗位信息
 	 * @param id 岗位id
@@ -165,7 +165,7 @@ public class CorporationWorkController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数
@@ -231,7 +231,7 @@ public class CorporationWorkController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param corporationWorkUserInfo 岗位用户信息
 	 * @return 是否成功
@@ -271,7 +271,7 @@ public class CorporationWorkController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param corporationWorkId 岗位id
 	 * @param userId 用户id
@@ -295,7 +295,7 @@ public class CorporationWorkController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param corporationWorkId 岗位id
 	 * @return 用户集合
@@ -317,7 +317,7 @@ public class CorporationWorkController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param corporationWorkPermissionInfo 岗位权限信息
 	 * @return 是否成功
@@ -357,7 +357,7 @@ public class CorporationWorkController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param corporationWorkId 岗位id
 	 * @param permissionId 权限id
@@ -381,7 +381,7 @@ public class CorporationWorkController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param id 
 	 * @return 权限集合

@@ -27,7 +27,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月27日
  * @description 模块Controller
  */
@@ -37,7 +37,7 @@ public class ModuleController {
 	private ModuleService moduleService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param moduleInfo 模块信息
 	 * @return 是否成功
@@ -125,7 +125,7 @@ public class ModuleController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param id 模块id
 	 * @return 是否成功
@@ -146,7 +146,7 @@ public class ModuleController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param moduleInfo 模块信息
 	 * @param id 模块id
@@ -238,7 +238,7 @@ public class ModuleController {
 
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @return 组织机构树
 	 * @description 查询组织机构树
@@ -257,7 +257,7 @@ public class ModuleController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数
@@ -359,7 +359,7 @@ public class ModuleController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param modulePermissionInfo 模块权限信息
 	 * @return 是否成功
@@ -399,7 +399,7 @@ public class ModuleController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param moduleId 模块id
 	 * @param permissionId 权限id
@@ -423,7 +423,7 @@ public class ModuleController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param moduleId 模块id
 	 * @return 权限集合

@@ -23,7 +23,7 @@ import com.brt.bref.user.feign.entity.UserEntity;
 import com.brt.bref.user.svc.service.CorporationService;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月21日
  * @description 组织机构Controller
  */
@@ -33,7 +33,7 @@ public class CorporationController {
 	CorporationService corporationService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param corporationInfo 组织机构信息
 	 * @return 是否成功
@@ -93,7 +93,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param id 组织机构id
 	 * @return 是否成功
@@ -114,7 +114,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationInfo 需要修改的组织机构信息
 	 * @param id 组织机构id
@@ -171,7 +171,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @return 组织机构树
 	 * @description 查询组织机构树
@@ -188,7 +188,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationUserInfo 组织机构用户信息
 	 * @return 是否成功
@@ -228,7 +228,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationId 组织机构id
 	 * @param userId 用户id
@@ -252,7 +252,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationId 组织机构id
 	 * @return 用户集合
@@ -274,7 +274,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationPermissionInfo 组织机构权限信息
 	 * @return 是否成功
@@ -314,7 +314,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationId 组织机构id
 	 * @param permissionId 权限id
@@ -338,7 +338,7 @@ public class CorporationController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param corporationId 组织机构id
 	 * @return 权限集合

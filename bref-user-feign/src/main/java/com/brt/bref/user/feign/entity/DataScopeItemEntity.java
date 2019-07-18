@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月28日
  * @description 数据权限-行-item
  */

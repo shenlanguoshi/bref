@@ -3,7 +3,7 @@ package com.brt.bref.user.feign.entity;
 import java.io.Serializable;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月20日
  * @description 用户职务实体类
  */

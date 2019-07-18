@@ -142,7 +142,7 @@ public class JdbcUserDetailsServiceImpl extends JdbcDaoSupport implements JdbcUs
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月23日
 	 * @param username
 	 * @return List<String> 用户权限集合
@@ -159,7 +159,7 @@ public class JdbcUserDetailsServiceImpl extends JdbcDaoSupport implements JdbcUs
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月10日
 	 * @param userId 用户id
 	 * @param corporationId 组织机构id
@@ -177,7 +177,7 @@ public class JdbcUserDetailsServiceImpl extends JdbcDaoSupport implements JdbcUs
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月23日
 	 * @param username
 	 * @return List<String> 用户岗位权限集合
@@ -194,7 +194,7 @@ public class JdbcUserDetailsServiceImpl extends JdbcDaoSupport implements JdbcUs
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月23日
 	 * @param username
 	 * @return List<String> 用户职务权限集合
@@ -212,7 +212,7 @@ public class JdbcUserDetailsServiceImpl extends JdbcDaoSupport implements JdbcUs
 
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月24日
 	 * @param in 
 	 * @param items
@@ -256,7 +256,7 @@ public class JdbcUserDetailsServiceImpl extends JdbcDaoSupport implements JdbcUs
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月24日
 	 * @param in
 	 * @param items
@@ -291,7 +291,7 @@ public class JdbcUserDetailsServiceImpl extends JdbcDaoSupport implements JdbcUs
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月24日
 	 * @param in
 	 * @param items

@@ -3,7 +3,7 @@ package com.brt.bref.workflow.entity;
 import java.io.Serializable;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年12月17日
  * @description 表单实体
  */

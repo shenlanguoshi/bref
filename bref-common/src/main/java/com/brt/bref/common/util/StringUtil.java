@@ -45,7 +45,7 @@ public class StringUtil {
 	private static StringBuilder sb = new StringBuilder();
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月12日
 	 * @param str 日期字符串
 	 * @return 是否为日期格式
@@ -1255,7 +1255,7 @@ public class StringUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param dataSchema 列域
 	 * @return 字段数组
@@ -1276,7 +1276,7 @@ public class StringUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param column
 	 * @return 解析后的字段
@@ -1294,7 +1294,7 @@ public class StringUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月12日
 	 * @param ids 类似 a b c
 	 * @return String ('a','b','c')

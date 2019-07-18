@@ -27,7 +27,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年12月8日
  * @description 部署Controller
  */
@@ -40,7 +40,7 @@ public class DeploymentController {
 	RepositoryService repositoryService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月8日
 	 * @param request
 	 * @param deploymentInfo 部署信息
@@ -81,7 +81,7 @@ public class DeploymentController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月8日
 	 * @param id 部署实例id
 	 * @param type true:将给定的部署和级联删除删除到流程实例、历史流程实例和作业 false:删除给定的部署
@@ -95,7 +95,7 @@ public class DeploymentController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月8日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数

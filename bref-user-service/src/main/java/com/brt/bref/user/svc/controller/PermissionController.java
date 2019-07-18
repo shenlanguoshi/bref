@@ -32,7 +32,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月28日
  * @description 权限Controller
  */
@@ -42,7 +42,7 @@ public class PermissionController {
 	private PermissionService permissionService;
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param permissionInfo 权限信息
 	 * @return 是否成功
@@ -78,7 +78,7 @@ public class PermissionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param id 权限id
 	 * @return 是否成功
@@ -99,7 +99,7 @@ public class PermissionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param permissionInfo 权限信息
 	 * @param id 权限id
@@ -138,7 +138,7 @@ public class PermissionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数
@@ -195,7 +195,7 @@ public class PermissionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionModuleInfo 权限-模块信息
 	 * @return 是否成功
@@ -235,7 +235,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionId 权限id
 	 * @param moduleId 模块id
@@ -259,7 +259,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionId 权限id
 	 * @return 模块集合
@@ -281,7 +281,7 @@ public class PermissionController {
 	}	
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionDataSchemaInfo 权限-数据权限列信息
 	 * @return 是否成功
@@ -321,7 +321,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionId 权限id
 	 * @param dataSchemaId 数据权限-列 id
@@ -345,7 +345,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionId 权限id
 	 * @return 数据权限-列集合
@@ -367,7 +367,7 @@ public class PermissionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionDataScopeInfo 权限-数据权限行信息
 	 * @return 是否成功
@@ -407,7 +407,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionId 权限id
 	 * @param dataSchemaId 数据权限-行 id
@@ -431,7 +431,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param permissionId 权限id
 	 * @return 数据权限-行集合
@@ -453,7 +453,7 @@ public class PermissionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param permissionUserInfo 权限用户信息
 	 * @return 是否成功
@@ -493,7 +493,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param permissionId 权限id
 	 * @param userId 用户id
@@ -517,7 +517,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param permissionId
 	 * @return 权限用户列表
@@ -539,7 +539,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param permissionCorporationInfo 权限组织机构信息
 	 * @return 是否成功
@@ -579,7 +579,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param permissionId 权限id
 	 * @param corporationId 组织机构id
@@ -603,7 +603,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param permissionId 权限id
 	 * @return 权限组织机构列表
@@ -625,7 +625,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月22日
 	 * @param permissionCorporationWorkInfo 权限岗位信息
 	 * @return 是否成功
@@ -665,7 +665,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param permissionId 权限id
 	 * @param corporationWorkId 岗位id
@@ -689,7 +689,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param permissionId 权限id
 	 * @return 权限岗位列表
@@ -711,7 +711,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param permissionJobPositionInfo 权限职务信息
 	 * @return 是否成功
@@ -751,7 +751,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param permissionId 权限id
 	 * @param jobPositionId 职务id
@@ -775,7 +775,7 @@ public class PermissionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param permissionId
 	 * @return 权限职务列表

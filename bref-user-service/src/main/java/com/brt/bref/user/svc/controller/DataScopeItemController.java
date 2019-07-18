@@ -24,7 +24,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月30日
  * @description 数据权限行itemController
  */
@@ -34,7 +34,7 @@ public class DataScopeItemController {
 	private DataScopeItemService dataScopeItemService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataScopeItemInfo 数据权限行item信息
 	 * @return 是否成功
@@ -86,7 +86,7 @@ public class DataScopeItemController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param id dataScopeItemId
 	 * @return 是否成功
@@ -108,7 +108,7 @@ public class DataScopeItemController {
 
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataScopeItemInfo
 	 * @param id
@@ -167,7 +167,7 @@ public class DataScopeItemController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数

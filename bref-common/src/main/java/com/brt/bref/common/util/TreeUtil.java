@@ -13,7 +13,7 @@ import com.alibaba.fastjson.JSONObject;
 
 public class TreeUtil {
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月24日
 	 * @param jsonArray 待转换的jsonArray
 	 * @param key 主键名称
@@ -55,7 +55,7 @@ public class TreeUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月8日
 	 * @param jsonArray 待转换的jsonArray
 	 * @param key 主键名称
@@ -94,7 +94,7 @@ public class TreeUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param jsonArray
 	 * @param key
@@ -134,7 +134,7 @@ public class TreeUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param jsonArray
 	 * @param key
@@ -180,7 +180,7 @@ public class TreeUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月12日
 	 * @param jsonArray tree
 	 * @param children children的key值
@@ -206,7 +206,7 @@ public class TreeUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年4月4日
 	 * @param jsonArray 树
 	 * @param key 主键key

@@ -13,7 +13,7 @@ import com.alibaba.fastjson.JSONObject;
 public class CollectionUtil {
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月24日
 	 * @param list
 	 * @return 去重后的list
@@ -28,7 +28,7 @@ public class CollectionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月20日
 	 * @param map
 	 * @return Map
@@ -46,7 +46,7 @@ public class CollectionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月20日
 	 * @param map
 	 * @return Map
@@ -64,7 +64,7 @@ public class CollectionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月20日
 	 * @param map 待替换的Map
 	 * @param keyName Key值
@@ -87,7 +87,7 @@ public class CollectionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月20日
 	 * @param map 待替换的Map
 	 * @param keyName Key值	
@@ -110,7 +110,7 @@ public class CollectionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月20日
 	 * @param map 待替换的Map
 	 * @param reMap Map<key值,替换Key值 >
@@ -133,7 +133,7 @@ public class CollectionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param list JSONArray list
 	 * @param key 需要组装的key 一般为id

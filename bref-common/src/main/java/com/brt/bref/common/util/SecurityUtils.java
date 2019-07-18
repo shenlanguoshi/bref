@@ -15,14 +15,14 @@ import com.alibaba.fastjson.JSONObject;
 import com.brt.bref.common.constant.EntryConstant;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月26日
  * @description 安全工具类
  */
 public class SecurityUtils {
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @return Authentication
 	 * @description 获取Authentication
@@ -38,7 +38,7 @@ public class SecurityUtils {
 	//				.getJSONObject("principal");
 	//	}
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @param authentication
 	 * @return JSONObject
@@ -55,7 +55,7 @@ public class SecurityUtils {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @return 
 	 * @description 获取ClientId
@@ -70,7 +70,7 @@ public class SecurityUtils {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @return JSONObject
 	 * @description 获取用户
@@ -84,7 +84,7 @@ public class SecurityUtils {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @return JSONObject
 	 * @description 获取菜单
@@ -98,7 +98,7 @@ public class SecurityUtils {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @return JSONObject
 	 * @description 获取列域
@@ -115,7 +115,7 @@ public class SecurityUtils {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月26日
 	 * @return JSONObject
 	 * @description 获取行域

@@ -16,7 +16,7 @@ public class MysqlUtil {
 	static String daoPath = "com.brt.bref.user.svc.dao";
 	static String servicePath = "com.brt.bref.user.svc.service";
 	static String controllerPath = "com.brt.bref.user.svc.controller";
-	static String author = "方杰";
+	static String author = "蒋润";
 	// 对应表名,使用%表示所有表
 	static String table = "sys_user";
 	// 对应数据库

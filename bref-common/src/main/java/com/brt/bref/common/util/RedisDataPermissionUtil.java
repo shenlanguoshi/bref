@@ -10,14 +10,14 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2019年1月11日
  * @description redis数据权限过滤工具
  */
 public class RedisDataPermissionUtil {
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param tree 树
 	 * @param dataSchema 数据权限列
@@ -49,7 +49,7 @@ public class RedisDataPermissionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param list 集合
 	 * @param dataSchema 列权限
@@ -74,7 +74,7 @@ public class RedisDataPermissionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param tree 树
 	 * @param dataScope
@@ -135,7 +135,7 @@ public class RedisDataPermissionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param node JSONObject对象
 	 * @param columnName 字段名
@@ -152,7 +152,7 @@ public class RedisDataPermissionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param node JSONObject对象
 	 * @param columnName 字段名
@@ -172,7 +172,7 @@ public class RedisDataPermissionUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月11日
 	 * @param node JSONObject对象
 	 * @param columnName 字段名

@@ -31,7 +31,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年12月8日
  * @description 流程模版Controller
  */
@@ -44,7 +44,7 @@ public class ModelController {
 	RepositoryService repositoryService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月8日
 	 * @param request 请求
 	 * @param modelInfo 流程模型信息
@@ -113,7 +113,7 @@ public class ModelController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月8日
 	 * @param id 流程模型id
 	 * @return 
@@ -126,7 +126,7 @@ public class ModelController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月8日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数
@@ -184,7 +184,7 @@ public class ModelController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月8日
 	 * @param response 请求响应
 	 * @param id 流程模版id

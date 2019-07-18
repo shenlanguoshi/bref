@@ -27,7 +27,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月27日 
  * @description 职务Controller
  */
@@ -37,7 +37,7 @@ public class JobPositionController {
 	private JobPositionService jobPositionService;
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param jobPositionInfo 职务信息
 	 * @return 是否成功
@@ -73,7 +73,7 @@ public class JobPositionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param id 职务id
 	 * @return 是否成功
@@ -94,7 +94,7 @@ public class JobPositionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月27日
 	 * @param jobPositionInfo 职务信息
 	 * @param id 职务id
@@ -132,7 +132,7 @@ public class JobPositionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数
@@ -189,7 +189,7 @@ public class JobPositionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param jobPositionUserInfo 职务用户信息
 	 * @return 是否成功
@@ -229,7 +229,7 @@ public class JobPositionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param jobPositionId 职务id
 	 * @param userId 用户id
@@ -253,7 +253,7 @@ public class JobPositionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param jobPositionId 职务id
 	 * @return 用户集合
@@ -275,7 +275,7 @@ public class JobPositionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param jobPositionPermissionInfo 职务权限信息
 	 * @return 是否成功
@@ -315,7 +315,7 @@ public class JobPositionController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param jobPositionId 职务id
 	 * @param permissionId 权限id
@@ -339,7 +339,7 @@ public class JobPositionController {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月28日
 	 * @param jobPositionId 职务id
 	 * @return 权限集合

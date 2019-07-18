@@ -7,14 +7,14 @@ import java.util.Date;
 import java.util.TimeZone;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2019年1月9日
  * @description 日期工具类
  */
 public abstract class DateUtil {
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return Date
 	 * @description 获取日期
@@ -26,7 +26,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return long 当前毫秒
 	 * @description 获取当前毫秒
@@ -44,7 +44,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return String 年月日时分秒毫秒
 	 * @description 获取年月日时分秒毫秒
@@ -55,7 +55,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return String 年月日时分秒
 	 * @description 获取年月日时分秒
@@ -66,7 +66,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return long 当前秒
 	 * @description 获取当前秒
@@ -84,7 +84,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param millisecond
 	 * @return String yyyy-MM-dd HH:mm:ss
@@ -102,7 +102,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return String yyyy-MM-dd
 	 * @description 获取当前的日期
@@ -113,7 +113,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return int
 	 * @description 获取当前年份
@@ -124,7 +124,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return int
 	 * @description 获取当前季度
@@ -146,7 +146,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return String
 	 * @description 获取年/月/日
@@ -159,7 +159,7 @@ public abstract class DateUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @return String
 	 * @description 获取yyyy年MM月dd日
@@ -172,7 +172,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param date 日期字符串yyyy-MM-dd
 	 * @return String yyyy-MM-dd
@@ -191,7 +191,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param date yyyy-MM-dd HH:mm:ss
 	 * @param day 天数
@@ -211,7 +211,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param date
 	 * @return long 
@@ -229,7 +229,7 @@ public abstract class DateUtil {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param date yyyy-MM-dd
 	 * @return long
@@ -247,7 +247,7 @@ public abstract class DateUtil {
 	}
 	
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月9日
 	 * @param mss 毫秒
 	 * @return String *days*hours*minutes*seconds

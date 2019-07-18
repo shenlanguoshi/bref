@@ -27,7 +27,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年11月30日
  * @description 数据权限-行Controller
  */
@@ -37,7 +37,7 @@ public class DataScopeController {
 	private DataScopeService dataScopeService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataScopeInfo
 	 * @return 是否成功
@@ -96,7 +96,7 @@ public class DataScopeController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param id 数据权限-行id
 	 * @return 是否成功
@@ -117,7 +117,7 @@ public class DataScopeController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataScopeInfo 数据权限-行信息
 	 * @param id 数据权限-行id
@@ -181,7 +181,7 @@ public class DataScopeController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param searchParam 搜索参数
 	 * @param pageParam 分页参数
@@ -263,7 +263,7 @@ public class DataScopeController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataScopePermissionInfo 数据权限行-权限信息
 	 * @return 是否成功
@@ -303,7 +303,7 @@ public class DataScopeController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataScopeId 数据权限-行id
 	 * @param permissionId 权限id
@@ -327,7 +327,7 @@ public class DataScopeController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年11月30日
 	 * @param dataScopeId 数据权限-行 id
 	 * @return 权限集合

@@ -23,7 +23,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * @author 方杰
+ * @author 蒋润
  * @date 2018年12月24日
  * @description 表单控制层
  */
@@ -33,7 +33,7 @@ public class FormHeadController {
 	private FormHeadService formHeadService;
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月24日
 	 * @param formHeadInfo
 	 * @return 是否成功
@@ -71,7 +71,7 @@ public class FormHeadController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月24日
 	 * @param id
 	 * @return 是否成功
@@ -91,7 +91,7 @@ public class FormHeadController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月24日
 	 * @param id
 	 * @return 表单信息
@@ -112,7 +112,7 @@ public class FormHeadController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月24日
 	 * @param formHeadInfo
 	 * @param id
@@ -152,7 +152,7 @@ public class FormHeadController {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月24日
 	 * @param searchParam
 	 * @param pageParam

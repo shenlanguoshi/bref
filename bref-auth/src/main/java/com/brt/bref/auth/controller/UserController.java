@@ -40,7 +40,7 @@ public class UserController {
     }
     
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2018年12月1日
 	 * @param authHeader
 	 * @return 是否成功

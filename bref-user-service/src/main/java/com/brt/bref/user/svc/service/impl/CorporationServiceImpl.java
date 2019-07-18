@@ -82,7 +82,7 @@ public class CorporationServiceImpl implements CorporationService {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月12日
 	 * @return 完整树
 	 * @description tag true:刷新redis false:从redis读数据，没有则从数据库获取 
@@ -98,7 +98,7 @@ public class CorporationServiceImpl implements CorporationService {
 	}
 
 	/**
-	 * @author 方杰
+	 * @author 蒋润
 	 * @date 2019年1月12日
 	 * @return JSONObject {list tree ids}
 	 * @description 从redis获取数据 
