@@ -4,6 +4,7 @@
 基于 Spring Cloud 、Spring Security OAuth2 的权限管理系统
 
 #### 软件架构
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0720/181632_e661386f_5156205.png "屏幕截图.png")
 
 - bref-auth ---- 认证中心
 - bref-common ---- 公共包
